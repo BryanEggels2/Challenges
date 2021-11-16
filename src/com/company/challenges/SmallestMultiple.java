@@ -1,9 +1,6 @@
 package com.company.challenges;
 
 public class SmallestMultiple {
-
-
-
     public static int Calculate(){
         int max = 2147483647;
         for (double x = 2520; x < max; x++){
