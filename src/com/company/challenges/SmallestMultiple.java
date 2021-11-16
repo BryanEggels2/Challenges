@@ -1,6 +1,6 @@
 package com.company.challenges;
 
-public class smallestMultiple {
+public class SmallestMultiple {
 
 
 

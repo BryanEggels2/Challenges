@@ -9,6 +9,6 @@ public class Main {
         System.out.println(Fibonacci.Calculate(1,2,0));
         System.out.println(Sum_square_difference.SumSquare(100));
         System.out.println(LargestPalindrome.Calculate());
-        System.out.println(smallestMultiple.Calculate());
+        System.out.println(SmallestMultiple.Calculate());
     }
 }
