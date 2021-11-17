@@ -6,9 +6,9 @@ public class LargestPalindrome {
         String palindrome = "0";
         int highX = 0;
         int highY = 0;
-        //Lowest number is 100 because we need the largest palindrome of three digits.
+        //Lowest number is at least 100 because we need the largest palindrome of three digits.
         int lowestNumber = 100;
-        // x can't be smaller then the lowest number because then it would never add up to the largest product.
+        // X can't be smaller then the lowest number because then it would never add up to the largest product.
         for(int x = 999; x > lowestNumber; x--){
             // Current x and y added up together can never be smaller then the x and y of the previous palindrome.
             // It could never add up to the largest number.

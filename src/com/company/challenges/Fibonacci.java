@@ -3,7 +3,7 @@ package com.company.challenges;
 public class Fibonacci {
 
     public static int Calculate(int a, int b, int sum){
-        //Oneliner
+        //One liner. See comments below for explanation.
         return (b< 4_000_000 ? (b%2 != 0 ? Calculate(b, a + b, sum) : Calculate(b, a + b, sum + b)) : sum);
 
         //If its lower then 4m, just continue to dive deeper into the method and keep adding the equal numbers.
